@@ -21,7 +21,7 @@ public class BasicTest {
 
     @BeforeEach
     public void setUp() {
-        MockBukkit.mock();
+        this.server = MockBukkit.mock();
         plugin = MockBukkit.createMockPlugin();
     }
 
